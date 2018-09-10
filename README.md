@@ -48,6 +48,11 @@ To install, use `go get`:
 ```bash
 $ go get -d github.com/sachaos/toggl
 ```
+this will download the binary to ~/go/bin
+add this to your `.bashrc` or `.zshrc`:
+```bash
+export PATH=~/go/bin:$PATH
+```
 
 ### Register API token
 
